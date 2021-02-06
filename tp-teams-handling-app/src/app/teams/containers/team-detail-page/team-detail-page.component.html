@@ -1,0 +1,11 @@
+<button mat-icon-button color="primary" aria-label="Example icon button with a home icon" (click)="reDirect()">
+  <mat-icon>home</mat-icon>
+</button>
+
+<div *ngIf="team">
+  <mat-card class="team-card-box">
+    <mat-card-content> {{ team.name }} </mat-card-content>
+    <mat-card-content> {{ team.slogan }} </mat-card-content>
+  </mat-card>
+</div>
+
